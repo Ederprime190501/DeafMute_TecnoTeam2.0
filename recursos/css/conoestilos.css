@@ -1,0 +1,453 @@
+@font-face{
+    
+    font-family: lobster;
+    src: URL('fuentes/lobster.ttf') format('truetype');
+}
+@font-face{
+    
+    font-family: montserrat;
+    src: URL('fuentes/montserrat.ttf') format('truetype');
+}
+
+.mediaViewInfo {
+	--web-view-name: Conocenos;
+	--web-view-id: Conocenos;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Conocenos;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Conocenos {
+	position: absolute;
+	width: 1720px;
+	height: 1806px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Conocenos;
+	--web-view-id: Conocenos;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Footer {
+	position: absolute;
+	width: 1720px;
+	height: 342px;
+	left: 0px;
+	top: 1464px;
+	overflow: visible;
+}
+#Background_footer {
+	fill: rgba(79,0,230,0.741);
+}
+.Background_footer {
+	position: absolute;
+	overflow: visible;
+	width: 1720px;
+	height: 342px;
+	left: 0px;
+	top: 0px;
+}
+#Copyright {
+	left: 30px;
+	top: 24px;
+	position: absolute;
+	overflow: visible;
+	width: 1003px;
+	white-space: nowrap;
+	line-height: 70px;
+	margin-top: -10px;
+	text-align: center;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	color: rgba(255,255,255,1);
+}
+#correo_electronico {
+	left: 31px;
+	top: 169px;
+	position: absolute;
+	overflow: visible;
+	width: 501px;
+	white-space: nowrap;
+	line-height: 70px;
+	margin-top: -17.5px;
+	text-align: center;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	color: rgba(255,255,255,1);
+}
+#numero_contacto {
+	left: 30px;
+	top: 248px;
+	position: absolute;
+	overflow: visible;
+	width: 299px;
+	white-space: nowrap;
+	line-height: 70px;
+	margin-top: -17.5px;
+	text-align: center;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	color: rgba(255,255,255,1);
+}
+#facebook {
+	position: absolute;
+	width: 128px;
+	height: 128px;
+	left: 1319px;
+	top: 84px;
+	overflow: visible;
+}
+#instagram {
+	position: absolute;
+	width: 113px;
+	height: 114px;
+	left: 1484px;
+	top: 91px;
+	overflow: visible;
+}
+#whatsapp {
+	position: absolute;
+	width: 118px;
+	height: 118px;
+	left: 1634px;
+	top: 84px;
+	overflow: visible;
+}
+#Body {
+	position: absolute;
+	width: 1818px;
+	height: 1266px;
+	left: 30px;
+	top: 184px;
+	overflow: visible;
+}
+#Logo {
+	position: absolute;
+	width: 400px;
+	height: 280px;
+	left: 0px;
+	top: 60px;
+	overflow: visible;
+}
+#Qu_es_DeafMutecom_Es_una_aplic {
+	left: 439px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 1002px;
+	white-space: nowrap;
+	line-height: 70px;
+	margin-top: -10px;
+	text-align: left;
+	font-family: Lucida Console;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	color: rgba(155,105,248,1);
+}
+#Imagen_2 {
+	position: absolute;
+	width: 314px;
+	height: 338px;
+	left: 42px;
+	top: 475px;
+	overflow: visible;
+}
+#Objetivos_de_DeafMutecom_1_Cap {
+	left: 439px;
+	top: 471px;
+	position: absolute;
+	overflow: visible;
+	width: 1380px;
+	white-space: nowrap;
+	line-height: 70px;
+	margin-top: -10px;
+	text-align: left;
+	font-family: Lucida Console;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	color: rgba(155,105,248,1);
+}
+#Imagen_3 {
+	position: absolute;
+	width: 400px;
+	height: 300px;
+	left: 0px;
+	top: 948px;
+	overflow: visible;
+}
+#Caractersticas_de_DeafMutecom_ {
+	left: 439px;
+	top: 870px;
+	position: absolute;
+	overflow: visible;
+	width: 1349px;
+	white-space: nowrap;
+	line-height: 70px;
+	margin-top: -10px;
+	text-align: left;
+	font-family: Lucida Console;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	color: rgba(155,105,248,1);
+}
+#Header {
+	position: absolute;
+	width: 1720px;
+	height: 109px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: Login.html;
+	cursor: pointer;
+}
+#Background {
+	opacity: 0.6;
+	fill: rgba(89,6,244,1);
+}
+.Background {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 109px;
+	left: 0px;
+	top: 0px;
+}
+#Btn_Login_Registro {
+	position: absolute;
+	width: 406px;
+	height: 70px;
+	left: 1481px;
+	top: 20px;
+	overflow: visible;
+}
+#Login {
+	position: absolute;
+	width: 218px;
+	height: 70px;
+	left: 188px;
+	top: 0px;
+	overflow: visible;
+}
+#Btn_Login {
+	fill: rgba(255,255,255,1);
+}
+.Btn_Login {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 236px;
+	height: 88px;
+	left: 0px;
+	top: 0px;
+}
+#Iniciar_Sesin {
+	left: 12px;
+	top: 20px;
+	position: absolute;
+	overflow: visible;
+	width: 195px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(89,6,244,1);
+}
+#Registro {
+	position: absolute;
+	width: 166px;
+	height: 70px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	transition: all 0.30000001192092896s ease-out;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: Registro.html;
+	cursor: pointer;
+}
+#Btn_Registro {
+	fill: rgba(255,255,255,1);
+}
+.Btn_Registro {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 184px;
+	height: 88px;
+	left: 0px;
+	top: 0px;
+}
+#Registro_bd {
+	left: 24px;
+	top: 20px;
+	position: absolute;
+	overflow: visible;
+	width: 119px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(89,6,244,1);
+}
+#Enlaces_Navegacin {
+	position: absolute;
+	width: 1453px;
+	height: 109px;
+	left: 28px;
+	top: 0px;
+	overflow: visible;
+}
+#Enlace_Inicio {
+	position: absolute;
+	width: 208px;
+	height: 109px;
+	left: 828px;
+	top: 0px;
+	overflow: visible;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+}
+#Inicio_btn {
+	fill: rgba(155,105,248,1);
+}
+.Inicio_btn {
+	position: absolute;
+	overflow: visible;
+	width: 208px;
+	height: 109px;
+	left: 0px;
+	top: 0px;
+}
+#Inicio {
+	left: 64px;
+	top: 40px;
+	position: absolute;
+	overflow: visible;
+	width: 81px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(255,255,255,1);
+}
+#Enlace_Conocenos {
+	position: absolute;
+	width: 208px;
+	height: 109px;
+	left: 1036px;
+	top: 0px;
+	overflow: visible;
+	transition: all 0.30000001192092896s ease-out;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: Contacto.html;
+	cursor: pointer;
+}
+#Conocenos_btn {
+	fill: rgba(155,105,248,1);
+}
+.Conocenos_btn {
+	position: absolute;
+	overflow: visible;
+	width: 208px;
+	height: 109px;
+	left: 0px;
+	top: 0px;
+}
+#Conocenos_bk {
+	left: 29px;
+	top: 40px;
+	position: absolute;
+	overflow: visible;
+	width: 152px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(255,255,255,1);
+}
+#Enlace_Contactanos {
+	position: absolute;
+	width: 208px;
+	height: 109px;
+	left: 1245px;
+	top: 0px;
+	overflow: visible;
+}
+#Contactanos_btn {
+	fill: rgba(155,105,248,1);
+}
+.Contactanos_btn {
+	position: absolute;
+	overflow: visible;
+	width: 208px;
+	height: 109px;
+	left: 0px;
+	top: 0px;
+}
+#Contactanos {
+	left: 17px;
+	top: 40px;
+	position: absolute;
+	overflow: visible;
+	width: 175px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(255,255,255,1);
+}
+#DeafMutecom {
+	left: 0px;
+	top: 12px;
+	position: absolute;
+	overflow: visible;
+	width: 391px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Lobster;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 60px;
+	color: rgba(255,255,255,1);
+}
